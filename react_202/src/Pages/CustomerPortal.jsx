@@ -26,9 +26,9 @@ useEffect(() => {
         .then(response => {
           
             if (response.status === 200) {
-              // alert("Successfull Purchase")
-              setCuUsername(response.data.result[0].name)
-              setCuMile(response.data.result[0].miles);
+            //   // alert("Successfull Purchase")
+            //   setCuUsername(response.data.result[0].name)
+            //   setCuMile(response.data.result[0].miles);
               
 
                 
