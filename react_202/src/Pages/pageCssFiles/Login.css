@@ -1,0 +1,128 @@
+body {
+	font-family: "Arial" , "Source Sans Pro", sans-serif;
+	color: #5dbce4;
+	font-weight: 300;
+	background: gba(213, 216, 217);
+	width: 100%;
+	height: 100%;
+  }
+  
+  .form-area{ margin-top: 30px;}
+  
+  form {
+  
+	  background-color: #f2f2f2;
+  }
+  
+  
+  input {
+	display: block;
+	width: 200px;
+	padding-top: 8px;
+	font-size: 13px;
+	border-width: 1.5px;
+	margin: 0px auto -1px auto;
+	 }
+  
+  .HomeHeader{color:#54a3f7} 
+  
+  .btnLogin {
+	  
+	box-shadow:inset 0px 1px 0px 0px #54a3f7;
+	  background:linear-gradient(to bottom, #007dc1 5%, #0061a7 100%);
+	  background-color:#007dc1;
+	  border-radius:3px;
+	border:1px solid #124d77;
+	  display:inline-block;
+	  cursor:pointer;
+	  color:#ffffff;
+	  font-family:Arial;
+	  font-size:15px;
+	width: 210px;
+	margin-top: 27px;
+	  padding:6px;
+	  text-decoration:none;
+	  text-shadow:0px 1px 0px #154682;
+	
+	  
+  }
+  
+  
+  .btnLogin:hover {
+	  background:linear-gradient(to bottom, #0061a7 5%, #007dc1 100%);
+	  background-color:#0061a7;
+  }
+   
+  .btnLogin :active {
+	  position:relative;
+	  top: 10px;
+  }
+  
+  .seatchResults{
+	  display: inline-block;
+	  width: 1000px;
+	  background-color: green;
+	  margin-top: 20px;
+  }
+  
+  #search1, #search2 {margin-top: 40px;}
+  
+  .FL{
+  
+	  margin-top: 20px;
+  }
+  
+  input {height: 30px;
+  border: solid black 1px ;
+  border-radius: 5px;}
+  ::-webkit-input-placeholder {
+	  text-align: center;
+	  margin-bottom: 20px;
+	  font-size: 14px;
+	  font-weight: 600;
+  }
+  
+  #btnSignup , .btnSignup, .btnS , #adminAddBtn, #bbv {
+	  
+	  box-shadow:inset 0px 1px 0px 0px #54f762;
+	  background:linear-gradient(to bottom, #09e75e 5%, #5de063 100%);
+	  background-color:#5eee8e;
+	  border-radius: 3px;
+	  font-size:15px;
+	  border:1px solid #0e803a;
+	  display:inline-block;
+	  cursor:pointer;
+	  color:#ffffff;
+	  font-family:Arial;
+	  margin-bottom: 50px;
+	  padding:6px 55px;
+	  text-decoration:none;
+	  text-shadow:0px 1px 0px #6efa79;
+	  margin-top: 20px;
+	
+	
+  }
+  
+  
+  #btnSignup:hover , .btnSignup:hover, .btnS:hover, #adminAddBtn:hover {
+	  background:linear-gradient(to bottom, #63e956 5%, #5dd184 100%);
+	  background-color:#00a77d;
+  }
+   
+  #btnSignup , .btnSignup, .btnS, #adminAddBtn :active {
+	  position:relative;
+	  top:3px;
+  }
+  
+  
+  h1, h2{
+	  color: rgb(132, 23, 196);
+  }
+  
+  .fLabel{
+  
+  
+  margin-top: 15px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 600;	
+  }

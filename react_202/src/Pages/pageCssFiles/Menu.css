@@ -1,0 +1,39 @@
+.menu
+		{font-family: Arial, Helvetica, sans-serif;
+		list-style-type : none;
+        position: fixed;
+        position: fixed;
+        top: 0;
+        right: 0;
+				margin-top: 0%;
+        float: right;
+				padding : 0px;
+				width : 200px;
+				background-color : #5dbce4;
+			}
+			
+			.menu .link
+			{ 
+        border : 1px solid black;
+				display : block;
+				box-shadow:inset 0px 1px 0px 0px #54a3f7;
+		background:linear-gradient(to bottom, #007dc1 5%, #0061a7 100%);
+		background-color:#007dc1;
+		border-radius:3 px;
+  		border:1px solid #124d77;
+				padding : 8px 0px 8px 16px;
+				text-decoration : none;
+				color: white;
+			}
+			
+			.menu .link:hover
+			{
+			background:linear-gradient(to bottom, #0061a7 5%, #007dc1 100%);
+			background-color:#0061a7;
+				color : rgb(0, 255, 85);
+			}
+
+
+
+
+.link {color: Green;}

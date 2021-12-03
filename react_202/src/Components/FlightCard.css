@@ -1,0 +1,57 @@
+.FL {
+width:  400px;
+height: 490px;
+display: inline-block;
+border: solid black 2px;
+color:black;
+
+}
+
+
+
+.Header{
+    text-align : center;
+}
+
+.flightImage {
+margin-top: 0px;
+margin-left: 0px;
+margin-right: 0px;
+width: 396px;
+height: 172px;
+}
+
+.btnAdd {
+	
+      margin-left: 40px ; 
+      text-align: center;
+      box-shadow:inset 0px 1px 0px 0px #54f762;
+      background:linear-gradient(to bottom, #09e75e 5%, #5de063 100%);
+      background-color:#5eee8e;
+      border-radius: 3px;
+      border:1px solid #0e803a;
+      margin: 0px auto 0px auto;
+      display:inline-block;
+      cursor:pointer;
+      color:#ffffff;
+      font-family:Arial;
+      font-size:13px;
+      margin-top: 0px;
+      margin-bottom: 50px;
+      padding:6px 55px;
+      text-decoration:none;
+      text-shadow:0px 1px 0px #6efa79;
+    
+  }
+  .btnAdd:hover {
+      background:linear-gradient(to bottom, #63e956 5%, #5dd184 100%);
+      background-color:#00a77d;
+  }
+   
+  .btnAdd:active {
+            
+      position:relative;
+      top:1px;
+  }
+  
+  .FCI{font-weight: 700;}
