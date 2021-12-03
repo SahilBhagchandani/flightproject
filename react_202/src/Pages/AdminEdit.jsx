@@ -80,7 +80,7 @@ function AdminEdit() {
                  alert("Flight Successfully Updated")
              } else if (response.status === 201) {
                  //Invalid credentials
-                 let message = "flight already exists"
+                 let message = "flight does not exist"
                  alert(message);
              } else {
                  //login failed
